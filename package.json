@@ -1,0 +1,24 @@
+{
+  "name": "music-video-arena",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An agentic arena where LLMs get a song, a budget, and tools (FAL/Replicate + local ffmpeg) and iterate to produce the best music video.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx src/run.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.71",
+    "@ai-sdk/openai": "^3.0.53",
+    "ai": "^6.0.168",
+    "dotenv": "^17.0.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
